@@ -186,10 +186,6 @@ opacity-h {
 	padding : 0 0 590px 0;
 }
 
-.no-webp .wrapper-a {
-	background : url("./../img/main/header_bg.png") center;
-}
-
 .wrapper-a {
 	position : absolute;
 	top : 0;
@@ -199,6 +195,12 @@ opacity-h {
 	        transform : translate(-50%, 0);
 	height : 445px;
 	width : 100%;
+	overflow : hidden;
+}
+
+.wrapper-a img {
+	width : 100%;
+	height : 100%;
 }
 
 .wrapper__leaves {
@@ -249,10 +251,6 @@ opacity-h {
 	width : 100%;
 }
 
-.no-webp .wrapper__d-pack {
-	background : url("./../img/main/pack_3.png") no-repeat;
-}
-
 .wrapper__d-pack {
 	position : absolute;
 	bottom : 93px;
@@ -263,6 +261,11 @@ opacity-h {
 	width : 602px;
 	height : 565px;
 	z-index : 5;
+}
+
+.wrapper__d-pack img {
+	width : 100%;
+	height : 100%;
 }
 
 .wrapper__d-pack-a {
@@ -280,10 +283,6 @@ opacity-h {
 	        filter : blur(40px);
 }
 
-.no-webp .wrapper__d-a {
-	background : url("./../img/main/footer_bg.png") center;
-}
-
 .wrapper__d-a {
 	content : "";
 	position : absolute;
@@ -294,10 +293,12 @@ opacity-h {
 	        transform : translate(-50%, 0);
 	height : 176px;
 	width : 100%;
+	overflow : hidden;
 }
 
-.no-webp .wrapper__d-b {
-	background : url("./../img/main/add_bg.png") center;
+.wrapper__d-a img {
+	width : 100%;
+	height : 100%;
 }
 
 .wrapper__d-b {
@@ -310,6 +311,12 @@ opacity-h {
 	        transform : translate(-50%, 0);
 	height : 456px;
 	width : 100%;
+	overflow : hidden;
+}
+
+.wrapper__d-b img {
+	width : 100%;
+	height : 100%;
 }
 
 .header {
@@ -389,10 +396,6 @@ opacity-h {
 	position : relative;
 }
 
-.no-webp .main__decor-a {
-	background : url("./../img/main/pack_1.png") no-repeat;
-}
-
 .main__decor-a {
 	position : absolute;
 	top : 184px;
@@ -400,10 +403,6 @@ opacity-h {
 	width : 354px;
 	height : 424px;
 	z-index : 5;
-}
-
-.no-webp .main__decor-b {
-	background : url("./../img/main/pack_2.png") no-repeat;
 }
 
 .main__decor-b {
@@ -1965,30 +1964,6 @@ opacity-h {
 	-ms-flex-pack : center;
 	justify-content : center;
 	cursor : pointer;
-}
-
-.webp .wrapper-a {
-	background : url(./../img/main/header_bg.webp) center;
-}
-
-.webp .wrapper__d-pack {
-	background : url(./../img/main/pack_3.webp) no-repeat;
-}
-
-.webp .wrapper__d-a {
-	background : url(./../img/main/footer_bg.webp) center;
-}
-
-.webp .wrapper__d-b {
-	background : url(./../img/main/add_bg.webp) center;
-}
-
-.webp .main__decor-a {
-	background : url(./../img/main/pack_1.webp) no-repeat;
-}
-
-.webp .main__decor-b {
-	background : url(./../img/main/pack_2.webp) no-repeat;
 }
 
 .webp .plus__table::after {
