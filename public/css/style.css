@@ -186,12 +186,11 @@ opacity-h {
 	padding : 0 0 590px 0;
 }
 
-.no-webp .wrapper::after {
+.no-webp .wrapper-a {
 	background : url("./../img/main/header_bg.png") center;
 }
 
-.wrapper::after {
-	content : "";
+.wrapper-a {
 	position : absolute;
 	top : 0;
 	left : 50%;
@@ -266,7 +265,7 @@ opacity-h {
 	z-index : 5;
 }
 
-.wrapper__d-pack::after {
+.wrapper__d-pack-a {
 	content : "";
 	position : absolute;
 	bottom : -20px;
@@ -281,11 +280,11 @@ opacity-h {
 	        filter : blur(40px);
 }
 
-.no-webp .wrapper__d::after {
+.no-webp .wrapper__d-a {
 	background : url("./../img/main/footer_bg.png") center;
 }
 
-.wrapper__d::after {
+.wrapper__d-a {
 	content : "";
 	position : absolute;
 	bottom : 0;
@@ -297,11 +296,11 @@ opacity-h {
 	width : 100%;
 }
 
-.no-webp .wrapper__d::before {
+.no-webp .wrapper__d-b {
 	background : url("./../img/main/add_bg.png") center;
 }
 
-.wrapper__d::before {
+.wrapper__d-b {
 	content : "";
 	position : absolute;
 	bottom : 176px;
@@ -390,12 +389,11 @@ opacity-h {
 	position : relative;
 }
 
-.no-webp .main__decor::after {
+.no-webp .main__decor-a {
 	background : url("./../img/main/pack_1.png") no-repeat;
 }
 
-.main__decor::after {
-	content : "";
+.main__decor-a {
 	position : absolute;
 	top : 184px;
 	right : 127px;
@@ -404,12 +402,11 @@ opacity-h {
 	z-index : 5;
 }
 
-.no-webp .main__decor::before {
+.no-webp .main__decor-b {
 	background : url("./../img/main/pack_2.png") no-repeat;
 }
 
-.main__decor::before {
-	content : "";
+.main__decor-b {
 	position : absolute;
 	top : 37px;
 	right : -81px;
@@ -1970,7 +1967,7 @@ opacity-h {
 	cursor : pointer;
 }
 
-.webp .wrapper::after {
+.webp .wrapper-a {
 	background : url(./../img/main/header_bg.webp) center;
 }
 
@@ -1978,19 +1975,19 @@ opacity-h {
 	background : url(./../img/main/pack_3.webp) no-repeat;
 }
 
-.webp .wrapper__d::after {
+.webp .wrapper__d-a {
 	background : url(./../img/main/footer_bg.webp) center;
 }
 
-.webp .wrapper__d::before {
+.webp .wrapper__d-b {
 	background : url(./../img/main/add_bg.webp) center;
 }
 
-.webp .main__decor::after {
+.webp .main__decor-a {
 	background : url(./../img/main/pack_1.webp) no-repeat;
 }
 
-.webp .main__decor::before {
+.webp .main__decor-b {
 	background : url(./../img/main/pack_2.webp) no-repeat;
 }
 
