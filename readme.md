@@ -5,7 +5,7 @@
   <br/>
   <h1>Eco Cleaner</h1>
   <p>
-    Transportation of goods
+    Cleaning agent for clothes
   </p>
   <br/>
 </div>
@@ -53,7 +53,12 @@ npm install
 </div>
 
 <div align="center">
-    <p>Transportation of goods over long distances, the project has an admin panel for managing deliveries and orders.</p>
+    <p>
+        A cleaning agent for things that can clean things from dirt, various surfaces from stains, and also remove odors.<br />
+        All cleaners contain only natural ingredients that do not harm human health.<br />
+        They are used to clean various surfaces: bathroom, floor, walls, furniture, textiles, clothes, dishes, shoes, household items, household appliances.<br />
+        They are easily biodegradable and leave no odor.
+    </p>
 </div>
 
 <!-- ||| -->
